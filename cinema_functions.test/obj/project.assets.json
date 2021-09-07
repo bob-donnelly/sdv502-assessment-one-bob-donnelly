@@ -876,6 +876,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "cinema_functions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/cinema_functions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/cinema_functions.dll": {}
+        }
       }
     }
   },
@@ -3756,13 +3766,19 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "cinema_functions/1.0.0": {
+      "type": "project",
+      "path": "../cinema_functions/cinema_functions.csproj",
+      "msbuildProject": "../cinema_functions/cinema_functions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
-      "NUnit3TestAdapter >= 4.0.0"
+      "NUnit3TestAdapter >= 4.0.0",
+      "cinema_functions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3791,7 +3807,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions\\cinema_functions.csproj": {
+              "projectPath": "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions\\cinema_functions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

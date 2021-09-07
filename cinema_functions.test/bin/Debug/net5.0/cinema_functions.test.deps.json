@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "NUnit": "3.13.2",
-          "NUnit3TestAdapter": "4.0.0"
+          "NUnit3TestAdapter": "4.0.0",
+          "cinema_functions": "1.0.0"
         },
         "runtime": {
           "cinema_functions.test.dll": {}
@@ -647,6 +648,11 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "cinema_functions/1.0.0": {
+        "runtime": {
+          "cinema_functions.dll": {}
+        }
       }
     }
   },
@@ -970,6 +976,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "cinema_functions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
