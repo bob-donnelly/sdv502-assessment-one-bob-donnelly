@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions.test\\cinema_functions.test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions.test\\cinema_functions.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions.test\\cinema_functions.test.csproj",
+        "projectName": "cinema_functions.test",
+        "projectPath": "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions.test\\cinema_functions.test.csproj",
+        "packagesPath": "C:\\Users\\Perri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Perri\\source\\repos\\sdv502-assessment-one-bob-donnelly\\cinema_functions.test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Perri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

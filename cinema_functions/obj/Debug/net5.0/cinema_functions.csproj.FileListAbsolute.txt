@@ -1,0 +1,12 @@
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\bin\Debug\net5.0\cinema_functions.deps.json
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\bin\Debug\net5.0\cinema_functions.dll
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\bin\Debug\net5.0\ref\cinema_functions.dll
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\bin\Debug\net5.0\cinema_functions.pdb
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.csproj.AssemblyReference.cache
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.AssemblyInfoInputs.cache
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.AssemblyInfo.cs
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.csproj.CoreCompileInputs.cache
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.dll
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\ref\cinema_functions.dll
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions\obj\Debug\net5.0\cinema_functions.pdb
