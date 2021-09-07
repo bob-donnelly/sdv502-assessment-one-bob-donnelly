@@ -44,6 +44,8 @@ namespace cinema_functions.test
             Assert.That(ticketPrice == result);
         }
 
+        // All Test cases arrange acts and asserts are the same as above comments for the rest of the unit tests.
+
         [TestCase(1, "adult", "Monday", 7, 17.50)]
         [TestCase(3, "adult", "Wednesday", 6, 52.5)]
         [TestCase(1, "adult", "Tuesday", 6, -1)]
@@ -179,6 +181,51 @@ namespace cinema_functions.test
             // Act
 
             decimal ticketPrice = TicketPrice.Family_Pass(pr_quantity_ticket, pr_quantity_adult, pr_quantity_child);
+
+            // Assert
+
+            Assert.That(ticketPrice == result);
+        }
+
+        [TestCase(1, "adult", "thursday", 21.50)]
+        [TestCase(2, "adult", "thursday", 43)]
+        [TestCase(1, "adult", "wednesday", -1)]
+        [TestCase(0, "adult", "thursday", -1)]
+        [TestCase(-1, "adult", "thursday", -1)]
+        [TestCase(1, "Senior", "thursday", -1)]
+        [TestCase(1, "Child", "thursday", -1)]
+        [TestCase(1, "Student", "thursday", -1)]
+        public void Chick_Flick_Thursday_Expect_21_50_Per_Person(int pr_quantity, string pr_person, string pr_day, decimal result)
+        {
+            // Arrange
+
+            TicketPriceController TicketPrice = new TicketPriceController();
+
+            // Act
+
+            decimal ticketPrice = TicketPrice.Chick_Flick_Thursday(pr_quantity, pr_person, pr_day);
+
+            // Assert
+
+            Assert.That(ticketPrice == result);
+        }
+
+        [TestCase(1, "wednesday", false, 12)]
+        [TestCase(2, "wednesday", false, 24)]
+        [TestCase(1, "tuesday", false, -1)]
+        [TestCase(1, "wednesday", true, -1)]
+        [TestCase(0, "wednesday", false, -1)]
+        [TestCase(-1, "wednesday", false, -1)]
+
+        public void Kids_Carers_Expect_12_Per_Group(int pr_quantity, string pr_day, bool pr_holiday, decimal result)
+        {
+            // Arrange
+
+            TicketPriceController TicketPrice = new TicketPriceController();
+
+            // Act
+
+            decimal ticketPrice = TicketPrice.Kids_Careers(pr_quantity, pr_day, pr_holiday);
 
             // Assert
 
