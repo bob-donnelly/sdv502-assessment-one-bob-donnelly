@@ -29,9 +29,9 @@ namespace cinema_functions.test
         {
             // Arrange 
             // Taking the TicketPriceController class from cinema_functions and making a variable assigning
-            // a copy of TicketPriceController to access the method to test via the class with dot notation.
+            // a copy of TicketPriceController with shorthand to access the method to test via the class with dot notation.
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act 
             // Action that is taken is that the price is calculated from the arguments passed into the method called from cinema_functions.cs file.
@@ -59,7 +59,7 @@ namespace cinema_functions.test
         {
             // Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -83,7 +83,7 @@ namespace cinema_functions.test
         {
             // Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -106,7 +106,7 @@ namespace cinema_functions.test
         {
             //Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -128,7 +128,7 @@ namespace cinema_functions.test
         {
             //Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -151,7 +151,7 @@ namespace cinema_functions.test
         {
             //Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -176,7 +176,7 @@ namespace cinema_functions.test
         {
             //Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -199,7 +199,7 @@ namespace cinema_functions.test
         {
             // Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
@@ -221,7 +221,7 @@ namespace cinema_functions.test
         {
             // Arrange
 
-            TicketPriceController TicketPrice = new TicketPriceController();
+            TicketPriceController TicketPrice = new();
 
             // Act
 
