@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-cinema_functions_test",
+      "appliesTo": "cinema_functions.test/cinema_functions_test.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-cinema_functions",
+      "appliesTo": "cinema_functions.test/",
+      "type": "launch"
+    }
+  ]
+}
