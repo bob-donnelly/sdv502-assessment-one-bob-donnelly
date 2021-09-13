@@ -98,3 +98,5 @@ C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions.
 C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions.test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions.test\obj\Debug\net5.0\cinema_functions.test.csproj.CopyComplete
 C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions.test\obj\Debug\net5.0\cinema_functions.test.genruntimeconfig.cache
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions.test\bin\Debug\net5.0\cinema_functions.dll
+C:\Users\Perri\source\repos\sdv502-assessment-one-bob-donnelly\cinema_functions.test\bin\Debug\net5.0\cinema_functions.pdb
